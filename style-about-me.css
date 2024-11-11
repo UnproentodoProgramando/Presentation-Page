@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el encabezado */
+header {
+    background: gray;
+
+}
+
+/* Estilo para la barra de navegación */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+/* Estilo para los enlaces dentro de la navegación */
+nav>a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo general para el cuerpo de la página */
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilo para el contenedor principal de la página */
+main {
+    flex: 1;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    font-size: 50px;
+}
+
+/* Estilo para la clase "capsula" */
+.capsula {
+    margin: 20px;
+}
+
+/* Estilo para el texto en la clase "texto" */
+.texto {
+    font-size: 20px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    margin: 381px 0px 0px 0px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* Estilo para los enlaces dentro del pie de página */
+footer a {
+    margin: 0px 10px 0px 10px;
+}
+
+/* Estilo para el texto en el pie de página */
+footer p {
+    font-size: small;
+}

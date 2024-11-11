@@ -1,0 +1,111 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estructura básica */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(4, 0, 255) 0%, rgba(86, 102, 202,1) 44%, rgb(152, 219, 123, 1) 100%);
+    color: #333;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Barra de navegación lateral derecha */
+header {
+    position: fixed;
+    bottom: 80px;
+    right: 150px;
+    height: 100vh;             /* Hace que el contenedor ocupe toda la altura de la pantalla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Título encima de la barra de navegación */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+    color: #333;
+    /* margin: 0 auto;
+    display: block; */
+    text-align: center;
+    /* margin: 0px 0px 0px 206px; */
+}
+
+.title p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Navegación lateral derecha */
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estilos de enlaces de navegación */
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+/* Contenido principal */
+.main-content {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    width: 80%;
+    margin-left: 0;          
+    justify-content: flex-start;
+}
+
+/* Imagen de perfil */
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;         
+    padding-left: -20px;
+    margin-top: 100px; 
+}
+
+
+.presentation img {
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+footer {
+    margin: 160px 0px 0px 0px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+
+}
+
+footer p {
+    font-size: small;
+}
